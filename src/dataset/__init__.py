@@ -1,0 +1,1 @@
+from .dataset_norm_samplenum import NTU_RGBD_norm_samplenum
