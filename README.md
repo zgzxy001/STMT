@@ -62,4 +62,4 @@ Our code and models are only for [ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERC
 Our STMT is based on [AMASS](https://github.com/nghorbani/amass/tree/master) [Point-Spatio-Temporal-Convolution](https://github.com/hehefan/Point-Spatio-Temporal-Convolution), [P4Transformer](https://github.com/hehefan/P4Transformer) and [SequentialPointNet](https://github.com/XingLi1012/SequentialPointNet).
 
 ## Contact
-Feel free to [email me](xiaoyuz3 AT cs.cmu.edu) if you have any questions.
+Feel free to [email me](xiaoyuz3@cs.cmu.edu) if you have any questions.
