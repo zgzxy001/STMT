@@ -1,5 +1,5 @@
 # STMT: A Spatial-Temporal Mesh Transformer for MoCap-Based Action Recognition
-This repository (work-in-progress) contains the code for the following CVPR'23 paper:
+This repository contains the code for the following CVPR'23 paper:
 
 **[STMT: A Spatial-Temporal Mesh Transformer for MoCap-Based Action Recognition](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_STMT_A_Spatial-Temporal_Mesh_Transformer_for_MoCap-Based_Action_Recognition_CVPR_2023_paper.pdf)** 
 
@@ -25,6 +25,18 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
+## Installation
+**Requirements**
+- Python 3.7
+- [PyTorch 1.7.1](https://pytorch.org/get-started)
+- [Human Body Prior](https://github.com/nghorbani/human_body_prior)
+- [Pyrender](https://pyrender.readthedocs.io/en/latest/install/index.html#osmesa) for visualizations
+
+Clone the [AMASS](https://github.com/nghorbani/amass/tree/master) repo and run the following from the root folder:
+```bash
+python install -r requirements.txt
+python setup.py develop
+```
 
 # Dataset
 
@@ -47,4 +59,4 @@ Our code and models are only for [ACADEMIC OR NON-PROFIT ORGANIZATION NONCOMMERC
 
 
 ## Acknowledgements
-Our STMT is based on [Point-Spatio-Temporal-Convolution](https://github.com/hehefan/Point-Spatio-Temporal-Convolution), [P4Transformer](https://github.com/hehefan/P4Transformer) and [SequentialPointNet](https://github.com/XingLi1012/SequentialPointNet).
+Our STMT is based on [AMASS](https://github.com/nghorbani/amass/tree/master) [Point-Spatio-Temporal-Convolution](https://github.com/hehefan/Point-Spatio-Temporal-Convolution), [P4Transformer](https://github.com/hehefan/P4Transformer) and [SequentialPointNet](https://github.com/XingLi1012/SequentialPointNet).
